@@ -9,3 +9,19 @@ All projects created in Snack are publicly available, so you can easily share th
 If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
 
 Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+
+
+To build the APK from your end, follow the following steps:
+
+ Using the terminal, enter the following commands:
+ 
+ 1. $ npm i -g eas-cli (CLI will be installed)
+
+2.  $ eas login (log in to expo)
+
+3.  $ eas init
+
+4.  $ eas build -p android --profile apk (In case of APK Build)
+
+
+5.  $ eas build -p android --profile release (In case of AAB Build)
